@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Smooth animations */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Subtle neon background gradient */
+body {
+  background: radial-gradient(circle at center, #0a0a0a, #000);
+  color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Particle effect */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
